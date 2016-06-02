@@ -60,8 +60,8 @@
 	}
 	to { 
 		transform: scale(1.25);
-		-webkit-filter: brightness(3%); /* Chrome, Safari, Opera */
-		filter: brightness(3%);	
+		-webkit-filter: brightness(5%); /* Chrome, Safari, Opera */
+		filter: brightness(5%);	
 	}
 }
 
