@@ -40,8 +40,12 @@
 }
 
 @keyframes pulsando {
-	from { transform: scale(1);}
-	to { transform: scale(1.25);}
+	from { 
+		transform: scale(1);
+	}
+	to { 
+		transform: scale(1.25);
+	}
 }
 
 .instinto-selvagem {
@@ -51,9 +55,13 @@
 @keyframes saltando {
 	from { 
 		transform: scale(1);
+		-webkit-filter: brightness(0%); /* Chrome, Safari, Opera */
+		filter: brightness(0%);
 	}
 	to { 
-		transform: scale(1.5);
+		transform: scale(1.25);
+		-webkit-filter: brightness(3%); /* Chrome, Safari, Opera */
+		filter: brightness(3%);	
 	}
 }
 
