@@ -69,9 +69,24 @@
  *
  */
 
+ /*Sprites gerados por http://css.spritegen.com/*/
 .comecar,
-.parar {}
+.parar {
+	display: inline-block; 
+	background: url('imgs/sprite-controles.png') no-repeat; 
+	overflow: hidden; 
+	text-indent: -9999px; 
+	text-align: left;
+}
 
-.comecar {}
+.comecar {
+	background-position: -0px -0px; 
+	width: 24px; 
+	height: 24px; 
+}
 
-.parar {}
+.parar {
+	background-position: -0px -24px; 
+	width: 24px; 
+	height: 24px;
+}
